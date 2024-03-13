@@ -1,0 +1,123 @@
+
+/* Global Styles */
+
+// @font-face {
+//     font-family: 'Hachi Maru Pop';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: url("./../lib/fonts/HachiMaruPop-Regular.ttf");
+// }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__title {
+    margin: 0;
+}
+
+/* Main Styles */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.jokes-container {
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jokes-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.jokes-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Additional Styles */
+#g-sinsult {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Add more styles as needed */
+
+
+// @font-face {
+//     font-family: 'Hachi Maru Pop';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: url("./../lib/fonts/HachiMaruPop-Regular.ttf");
+// }
+
+// // -------------------------------------------- global styling
+// html {
+// 	height:100%;
+// 	overflow-y: scroll;
+// }
+
+// .g-base {
+//     height:100%;
+// 	padding:0;
+//     margin:20px;
+//     background-color: #232323;
+//     font-family: 'Hachi Maru Pop', Arial, Helvetica, sans-serif;
+//     font-size: 2rem;
+//     color: #FFFFFF;
+// }
+
+// // ------------------------------------------- page / section styling
+// #p-main {
+//     height:100%;
+    
+//     // overall page layout with CSS grid to center contents
+//     display:grid;
+// 	grid-template-columns: auto;
+// 	grid-template-rows: auto;
+//     justify-items: center;
+//     align-items: center;
+
+//     & #s-caption {
+//         color: #99a0a7;
+//         padding-bottom:10px;
+//     }
+
+//     & #s-insult {
+//         margin-left:5px;
+//     }
+// }
+
+
